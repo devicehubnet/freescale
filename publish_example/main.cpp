@@ -28,11 +28,12 @@ char* gateway_addr = "";
 char* host_addr = "";
 int connectTimeout = 1000;
 
-#define API_KEY         "ba8b7a2d-b690-4351-8521-100b45c09dd8"
-#define PROJECT_ID      "4505"
-#define AN_SENSOR_NAME  "test"
-#define DEVICE_UUID     "1deffe91-f938-48c5-aaea-3aef29af7869"
-#define ID              "aaa"                        
+#define API_KEY         "COPY YOUR APY KEY HERE"
+#define PROJECT_ID      "COPY YOUR PROJECT ID HERE"
+#define AN_SENSOR_NAME  "COPY THE NAME OF A SENSOR FROM YOUR PROJECT"
+#define AN_ACTUATOR_NAME "COPY THE NAME OF A ACTUATOR FROM YOUR PROJECT"
+#define DEVICE_UUID     "COPY YOUR DEVICE ID HERE"
+#define ID              "aab"                         
 
 char* pubTopic = "/a/"API_KEY"/p/"PROJECT_ID"/d/"DEVICE_UUID"/sensor/"AN_SENSOR_NAME"/data";
 char id[30] = ID;                 
